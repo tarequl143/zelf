@@ -1,0 +1,14 @@
+.primaryButton {
+    display: inline-flex;
+    padding: 10px 20px;
+    background-color: #3354FF;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 2px;
+    justify-content: center;
+}
+.anchorButton {
+    font-size: 14px;
+    color: #3354FF;
+    display: inline-flex;
+}

@@ -1,0 +1,25 @@
+.postsTable {
+    width: 100%;
+    border: 1px solid #E3E4E8;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin: 40px 0;
+}
+.postsTable tbody tr:last-child {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.postsTable thead tr {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.postsTable th {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    white-space: nowrap;
+    text-align: left;
+    color: #767B8A;
+    padding: 16px;
+}

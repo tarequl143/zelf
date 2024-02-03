@@ -1,0 +1,117 @@
+.loginPage {
+    padding: 95px 0;
+}
+.loginContent {
+    display: flex;
+    width: 100%;
+    max-width: 1056px;
+    margin: 0 auto;
+    border: 1px solid #E3E4E8;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.loginContentLeft {
+    flex: 1;
+    background-color: #8107FB;
+    position: relative;
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    padding: 80px 0;
+}
+.loginContentLeft h1 {
+    font-size: 44px;
+    color: #ffffff;
+    font-weight: 300;
+    max-width: 175px;
+    text-align: right;
+    z-index: 5;
+}
+.loginContentLeft h1 strong {
+    color: #FFEB80;
+}
+.loginContentRight {
+    width: 550px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginContentRightWrap {
+    padding: 20px;
+    width: 100%;
+    max-width: 440px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.loginContentRightWrap button {
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.loginLeftGradiantBg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.loginLeftBg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.loginLeftMobileImg {
+    position: relative;
+    z-index: 5;
+}
+.loginTitle {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+}
+.brandButton {
+    width: 100%;
+    border: 1px solid #E3E4E8;
+    border-radius: 4px;
+    padding: 14px 20px;
+    text-align: center;
+    margin: 60px 0 40px;
+    background-color: transparent;
+}
+.brandButton span {
+    display: inline-flex;
+    position: relative;
+    padding-left: 24px;
+}
+.brandButton span:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 4px solid #3354FF;
+}
+.loginHelp {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+    color: #767B8A;
+    margin: 60px 0 0;
+}
+.loginAnchor {
+    text-transform: capitalize;
+    color: #3354FF;
+    font-weight: 500;
+}

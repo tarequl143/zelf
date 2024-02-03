@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*
+font-family: 'Inter', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+/*--=============== GENERAL STYLE ===============--*/
+*::-moz-selection {
+  background: #000000;
+  color: #ffffff;
+  text-shadow: none;
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #000000;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  color: #000000;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  background-color: #ffffff;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+a,
+a:hover,
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li,
+ol li {
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 1;
+  margin: 0 0 30px 0;
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 1;
+  margin: 0 0 25px 0;
+}
+
+h3 {
+  font-size: 17px;
+  line-height: 48px;
+  margin: 0 0 20px 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.row {
+  margin: 0 -20px;
+}
+
+.col {
+  padding: 0 20px;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-33 {
+  width: 33.333334%;
+}
+
+.w-35 {
+  width: 35%;
+}
+
+.w-40 {
+  width: 40%
+}
+
+.w-45 {
+  width: 45%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-55 {
+  width: 55%;
+}
+
+.w-60 {
+  width: 60%
+}
+
+.w-65 {
+  width: 65%
+}
+
+.w-66 {
+  width: 66.666667%
+}
+
+.w-70 {
+  width: 70%
+}
+
+.w-75 {
+  width: 75%
+}
+
+.w-100 {
+  width: 100%
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-col-rev {
+  flex-direction: column-reverse;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-row-rev {
+  flex-direction: row-reverse;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-baseline {
+  align-items: baseline;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.section-spacing {
+  padding: 40px 0;
+}
+
+.pb-0 {
+  padding-bottom: 0;
+}
+
+.pt-0 {
+  padding-top: 0;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 40px;
+  background-color: #F9FAFA;
+}
+/*--=============== END OF GENERAL STYLE ===============--*/
