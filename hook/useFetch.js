@@ -9,8 +9,7 @@ const useFetch = (endpoint) => {
 
   const options = {
     method: "GET",
-    // url: `https://hackapi.hellozelf.com/frontend/api/v1/contents?page=1`,
-    url: `/api/contents`,
+    url: `https://hackapi.hellozelf.com/frontend/api/v1/contents?page=1`,
   };
 
   const fetchData = async () => {

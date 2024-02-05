@@ -23,8 +23,8 @@ const TableViewPosts = () => {
       <tbody>
         {isLoading ? <tr><td style={{padding: "16px",}} colSpan={8} align='center'>Loading...</td></tr> :
         data?.length ?
-          data.map((post, index) => (
-            <TableRaw key={index} date={new Date(post?.creation_info?.created_at).toLocaleDateString()} videoTitle={post?.context?.main_text} creator={`@${post?.author?.username}`} platform={post?.author?.info?.platform} view={`${Math.floor(post?.stats?.views_count / 1000) || "--"}k`} engagement={`${Math.floor(post?.total_engagement / 1000) || "--"}k`} engageRate={`${(post?.engagement_rate).toFixed(2) || "--"}%`}  />
+          data.map((post) => (
+            <TableRaw key={post?.content?.uuid} date={new Date(post?.content?.timestamp).toLocaleDateString()} videoTitle={post?.content?.title} creator={`@${post?.creator?.name}`} platform={post?.creator?.platform} view={`${Math.floor(post?.content?.views / 1000)}k`} engagement={`${Math.floor(post?.content?.total_engagement / 1000)}k`} engageRate={`${(post?.content?.engagement_of_views * 100).toFixed(2)}%`}  />
           ))
           : <tr><td colSpan={8} align='center'>"No post found!"</td></tr>
         }

@@ -10,8 +10,8 @@ const GridViewPosts = () => {
   return (
     <div className={styles.postsWrapper}>
       {data?.length ?
-          data.map((post, index) =>
-            <GridViewPost key={index} title={post?.author?.username} postImg={post?.media?.url} creator={`@${post?.creator?.username}`} platform={post?.author?.info?.platform} view={`${Math.floor(post?.stats?.views_count / 1000) || "--"}k`} likes={`${Math.floor(post?.stats?.likes_count / 1000) || "--"}k`} comments={`${Math.floor(post?.stats?.comments_count / 1000) || "--"}k`}  />
+          data.map((post) =>
+            <GridViewPost key={post?.content?.uuid} title={post?.content?.title} postImg={post?.content?.thumbnail_url} creator={`@${post?.creator?.name}`} platform={post?.creator?.platform} view={`${Math.floor(post?.content?.views / 1000)}k`} likes={`${Math.floor(post?.content?.total_engagement / 1000)}k`} comments={`${(post?.content?.engagement_of_views * 100).toFixed(2)}%`}  />
           )
           : <div>"No post found!"</div>
         }

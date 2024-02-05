@@ -14,12 +14,6 @@ module.exports = {
         port: '',
         pathname: '/**',
       },
-      {
-        protocol: 'https',
-        hostname: 'a3f7-202-84-41-238.ngrok-free.app',
-        port: '',
-        pathname: '/**',
-      },
     ],
   },
 };
